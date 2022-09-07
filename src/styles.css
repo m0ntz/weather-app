@@ -1,0 +1,76 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-size: 90px;
+}
+
+.app {
+  max-width: 900px;
+  margin-top: 8px;
+  padding: 30px;
+  border: none;
+  border-radius: 20px;
+  background: radial-gradient(
+    690px at 51.5% -14.8%,
+    rgb(94, 252, 236) 0%,
+    rgb(0, 40, 143) 90%
+  );
+}
+
+.search {
+  text-align: right;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.btn-search {
+  border-radius: 4px;
+  border: none;
+}
+
+.header-emoji {
+  color: orange;
+  font-size: 80px;
+  text-align: center;
+  padding-left: 20px;
+}
+
+.max-temp {
+  padding-left: 20px;
+}
+
+.day {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.emoji {
+  font-size: 45px;
+  color: whitesmoke;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+footer {
+  margin-top: 60px;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+a {
+  color: #ffcbcb;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffcbcb;
+  text-decoration: underline;
+}
